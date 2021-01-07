@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-YOGA BOT 🤖
+YOGA BOT 
 Rec: ~Yoga
 
 ➸ Prefix:  *「 ${_p} 」*
@@ -13,41 +13,41 @@ Rec: ~Yoga
  ╚ ═════════════╝
 
 *╔ ═〘 FUN MENU 〙╗*
-🌹 $ { _p } qr <teks>
-🌹 $ { _p } stiker (gambar Anda)
-🌹${_p}bucin
-╚ ═════════════╝
+ ╠>$ { _p } qr <teks>
+ ╠>$ { _p } stiker (gambar Anda)
+ ╠>${_p}bucin
+ ╚ ═════════════╝
 
 *╔ ═〘 INFORMATION 〙╗*
-🌹 $ { _p } ssweb <url>
-🌹${_p}sswebf <url>
-🌹${_p}google <pencarian>
-🌹${_p}googlef <pencarian>
-🌹${_p}readmore <teks>|<sembunyi>
-╚═════════════╝
+ ╠>$ { _p } ssweb <url>
+ ╠>${_p}sswebf <url>
+ ╠>${_p}google <pencarian>
+ ╠>${_p}googlef <pencarian>
+ ╠>${_p}readmore <teks>|<sembunyi>
+ ╚═════════════╝
 
 
 *╔═〘 GROUP 〙═╗*
-🌹${_p}add (62xxxxxxxxxx)
-🌹${_p}kick @mention
-🌹${_p}promote @mention
-🌹${_p}demote @mention
-🌹${_p}linkgrup
-🌹${_p}pengumuman <teks>
-🌹${_p}hidetag <teks>
-🌹${_p}listonline [groupid]
-🌹${_p}grouplist
+ ╠>${_p}add (62xxxxxxxxxx)
+ ╠>${_p}kick @mention
+ ╠>${_p}promote @mention
+ ╠>${_p}demote @mention
+ ╠>${_p}linkgrup
+ ╠>${_p}pengumuman <teks>
+ ╠>${_p}hidetag <teks>
+ ╠>${_p}listonline [groupid]
+ ╠>${_p}grouplist
 
 *「 EXPERIMENTAL 」*
-🌹*${_p}jadibot*
+*${_p}jadibot*
 [kode login jika ada / kosongin]
-Jangan Lupa Scan QR
+Kata Ilham Jangan Lupa Scan QR, 
 
 *「 Advanced 」*
 > return m 'javascript eval' + m.sender
 
 =======*「 INFO 」*=======
-Coded using *Vim* on Android \\w Termux
+
 by *
 Github: 
 https:-
